@@ -17,7 +17,8 @@ class MyApp extends StatelessWidget {
       title: 'Tic Tac Toe',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.transparent,
-        primarySwatch: Colors.blue,
+        primaryColor: Colors.white,
+        // primarySwatch: Colors.,
       ),
       home: MyHomePage(title: 'Tic Tac Toe'),
       onGenerateRoute: (RouteSettings settings) =>
