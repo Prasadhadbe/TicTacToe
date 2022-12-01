@@ -13,7 +13,7 @@ class _SinglePlayerState extends State<SinglePlayer> {
   @override
   bool oTurn = true;
   int boxesFilled = 0;
-  List<String> displayElement = ["1", "", "", "", "", "", "", "", ""];
+  List<String> displayElement = ["", "", "", "", "", "", "", "", ""];
   Widget build(BuildContext context) {
     final topPadding = MediaQuery.of(context).padding.top;
     return Scaffold(
